@@ -1,0 +1,40 @@
+
+body {
+    background-color: hsla(229, 19%, 20%);
+    color: hsla(227, 70%, 87%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: hsl(227, 70%, 87%);
+}
+
+h2 {
+    text-align: center;
+    color: hsl(227, 44%, 80%);
+}
+
+button {
+    background-color: hsl(228, 13%, 44%);
+    color: hsl(227, 70%, 87%);
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    border: 1px solid white;
+}
+
+/* #container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+} */
